@@ -6,7 +6,6 @@ body {
 body {
   background: linear-gradient(to bottom, #131313 0%, #02101c 100%);
   margin: 0;
-  font-family: Helvetica, sans-serif;
   overflow: hidden;
 }
 
@@ -81,7 +80,7 @@ a {
 
 .element .name {
   position: absolute;
-  top: 4.6vh;
+  top: 5.8vh;
   left: 0;
   right: 0;
   font-size: 2.9vh;
@@ -121,8 +120,8 @@ button:active {
 }
 
 .highlight {
-  background-color: rgba(253, 105, 0, 0.95) !important;
-  box-shadow: 0 0 12px rgba(253, 105, 0, 0.95);
+  background-color: rgba(230, 82, 56, 0.95) !important;
+  box-shadow: 0 0 12px rgba(230, 82, 56, 0.95);
   border: 1px solid rgba(253, 105, 0, 0.25);
 }
 
@@ -136,8 +135,8 @@ button:active {
 
 .prize.element {
   transition: background-color 1.5s ease-in 0.3s;
-  background-color: rgba(253, 105, 0, 0.85) !important;
-  box-shadow: 0 0 12px rgba(253, 105, 0, 0.95);
+  background-color: rgba(230, 82, 56, 0.85) !important;
+  box-shadow: 0 0 12px rgba(230, 82, 56, 0.85);
 }
 
 .prize .company,
@@ -470,7 +469,7 @@ button:active {
 .prize-shine {
   font-size: 5vh;
   font-weight: bold;
-  color: #db5c58;
+  color: RGBA(230, 82, 56, 1.00);
   vertical-align: middle;
   padding: 0 6px;
 }
