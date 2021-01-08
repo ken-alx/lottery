@@ -15,31 +15,31 @@ const prizes = [
   },
   {
     type: 1,
-    count: 3,
+    count: 1,
     text: "一等奖",
-    title: "神秘大礼",
-    img: "../img/secrit.jpg"
+    title: "现金 1000 元",
+    img: "../img/redpacket.png"
   },
   {
     type: 2,
     count: 10,
     text: "二等奖",
-    title: "Mac Pro",
-    img: "../img/mbp.jpg"
+    title: "现金 600 元",
+    img: "../img/redpacket.png"
   },
   {
     type: 3,
     count: 20,
     text: "三等奖",
-    title: "iPhone 12 Pro",
-    img: "../img/huawei.png"
+    title: "现金 300 元",
+    img: "../img/redpacket.png"
   }
 ];
 
 /**
  * 一次抽取的奖品个数与prizes对应
  */
-const EACH_COUNT = [0, 3, 10, 20];
+const EACH_COUNT = [0, 1, 10, 20];
 
 /**
  * 卡片公司名称标识

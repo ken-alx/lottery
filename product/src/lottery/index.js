@@ -10,7 +10,7 @@ import {
 } from "./prizeList";
 import { NUMBER_MATRIX } from "./config.js";
 
-const ROTATE_TIME = 3000;
+const ROTATE_TIME = 20000;
 const BASE_HEIGHT = 1080;
 
 let TOTAL_CARDS,
@@ -412,7 +412,7 @@ function rotateBall() {
     new TWEEN.Tween(scene.rotation)
       .to(
         {
-          y: Math.PI * 8
+          y: Math.PI * 28
         },
         ROTATE_TIME
       )
